@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Advertisements;
 namespace MultiplayerShooter
 {
-public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
+public class RewardedAdsButton : MonoBehaviour//, IUnityAdsListener
 {
      #if UNITY_ANDROID
     private string gameId = "4200223";
@@ -31,7 +31,7 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
 
             // Initialize the Ads listener and service:
             Advertisement.Initialize(gameId, false); // ...initialize. 
-            Advertisement.AddListener (this);
+            //Advertisement.AddListener (this);
         }
        
 

@@ -6,9 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Multiplayer Car Shooter/Scenes/LobbyScene.unity
-    guid: eb7f75f341101944babff347ce445a9d
+    path: Assets/HEAVYART/Racing Template (Netcode, Lobby, Relay)/Scenes/BootScene.unity
+    guid: 81d57b43ce33be44ca8f4f56e067c056
   - enabled: 1
-    path: Assets/Multiplayer Car Shooter/Scenes/Game.unity
-    guid: c930fa80cc4b76c4a9b1bb772938ce85
-  m_configObjects: {}
+    path: Assets/HEAVYART/Racing Template (Netcode, Lobby, Relay)/Scenes/LoadingScene.unity
+    guid: 6bb09ef256a3c92498520ef22bea9203
+  - enabled: 1
+    path: Assets/HEAVYART/Racing Template (Netcode, Lobby, Relay)/Scenes/MainMenu.unity
+    guid: 75f5907731c76394684c24c6614474c9
+  - enabled: 1
+    path: Assets/HEAVYART/Racing Template (Netcode, Lobby, Relay)/Scenes/GameScene.unity
+    guid: c6a979e98efc37140b17e8cee7698f2f
+  - enabled: 1
+    path: Assets/HEAVYART/Racing Template (Netcode, Lobby, Relay)/Scenes/Demo/Demo.unity
+    guid: 9e4e82c7ce227504788e69a8440e8952
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
