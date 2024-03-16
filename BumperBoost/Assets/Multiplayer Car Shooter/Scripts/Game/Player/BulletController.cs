@@ -124,9 +124,9 @@ public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 			 Destroy (gameObject);
 		 
 		}//END_IF
-			
-			
-	 }
+
+
+		}
 	
 
 

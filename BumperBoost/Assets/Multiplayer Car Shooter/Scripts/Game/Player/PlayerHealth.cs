@@ -142,6 +142,7 @@ public class PlayerHealth : MonoBehaviour {
 	  }
 	  else
 	  {
+
 		  //hide network remote player
 		gameObject.SetActive(false);
 	    

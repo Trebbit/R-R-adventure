@@ -263,9 +263,9 @@ public class GameManager :  MonoBehaviourPunCallbacks
 				   //makes the draw of a point for the player to be spawn
 	               int index = UnityEngine.Random.Range (0, map.GetComponent<MapManager>().spawnPoints.Length);
                    entry.Value.transform.position = map.GetComponent<MapManager>().spawnPoints[index].position;
-		
-				      
-                }
+
+
+				}
 			    else if(!entry.Value.isLocalPlayer&&
 				entry.Value.id.Equals((string)targetPlayer.CustomProperties["Id"]))
 			    {
