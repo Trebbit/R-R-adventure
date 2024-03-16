@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Multiplayer Car Shooter/Scenes/LobbyScene.unity
+    guid: eb7f75f341101944babff347ce445a9d
+  - enabled: 1
+    path: Assets/Multiplayer Car Shooter/Scenes/Game.unity
+    guid: c930fa80cc4b76c4a9b1bb772938ce85
   m_configObjects: {}
