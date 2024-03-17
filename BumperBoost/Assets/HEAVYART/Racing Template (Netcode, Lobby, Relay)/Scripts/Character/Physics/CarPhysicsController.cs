@@ -174,7 +174,12 @@ namespace HEAVYART.Racing.Netcode
         void OnCollisionEnter(Collision col)
         {
             Vector3 collisionForce = col.impulse * Time.fixedDeltaTime;
+            if (NetworkManager.Singleton.IsServer == true)
+            {
+                localRigidbody.AddForce(collisionForce * -20000);
 
+                Debug.Log(gameObject.name + " collided with " + col.gameObject.name);
+            }
             //Here is the place to handle collision reactions.
         }
     }
